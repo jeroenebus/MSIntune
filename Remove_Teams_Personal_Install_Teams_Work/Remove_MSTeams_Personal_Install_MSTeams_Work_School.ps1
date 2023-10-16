@@ -1,4 +1,4 @@
-## Check if Teams Home App is available and Remove The app when possible.
+## Check if Microsoft Teams (Personal) is available and Remove the app when possible.
 
 if ($null -eq (Get-AppxPackage -Allusers -Name MicrosoftTeams)) {
     Write-Host "Microsoft Teams Client not available"
@@ -9,7 +9,7 @@ Else {
 }
 
 
-## Install Microsoft Teams Machine Wide
+## Install Microsoft Teams Machine Wide 64-bit version
 
 if (Test-Path "C:\Program Files (x86)\Teams Installer") {
     Write-Host "Teams Machine Wide installer is already installed"
