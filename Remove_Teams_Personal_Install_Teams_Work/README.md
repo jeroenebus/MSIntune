@@ -32,7 +32,7 @@
     
      **(There no real uninstall in the package so this is more like a dummy uninstall)**
 
-14. Install behavior: Systen
+14. Install behavior: System
 
 15. Detection rules: File "C:\Program Files (x86)\", Folder "Teams Installer".
          Detection method: File or folder exists.
