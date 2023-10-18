@@ -93,7 +93,7 @@ elseif ($installTeamsMachineWideOnly) {
     ## Install Microsoft Teams Machine Wide 64-bit version
 
     if (Test-Path "${env:ProgramFiles(x86)}\Teams Installer") {
-        Write-Host "Micorosoft Teams Machine Wide 64-bit is already installed!"
+        Write-Host "Microsoft Teams Machine Wide 64-bit is already installed!"
         Exit 0
     }
 
