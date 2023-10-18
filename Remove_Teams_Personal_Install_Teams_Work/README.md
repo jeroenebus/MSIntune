@@ -31,3 +31,8 @@
 13. Use as **"Uninstall Command"**: _powershell.exe -executionpolicy remotesigned -file ".\Remove_MSTeams_Personal_Install_MSTeams_Work_School.ps1"_.
     
      **(There no real uninstall in the package so this is more like a dummy uninstall)**
+
+14. Install behavior: System
+
+15. Detection rules: File "C:\Program Files (x86)\", Folder "Teams Installer".
+         Detection method: File or folder exists.
